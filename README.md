@@ -4,13 +4,13 @@
 ### For 800x480 LCDs, add the following code to config.txt:
 ```
 #Set GPIO pins to 18-Bit DPI Mode 6
-#GPIO 0 and 1 needed for DPI clock and Data Enable
+#GPIO 0 and 1 needed for DPI Clock and Data Enable
 gpio=0=a2,np
 gpio=1=a2,np
 #Set GPIO pins 2 and 3 to I2C Mode. These can be used for other things, if needed.
 gpio=2=a0,np
 gpio=3=a0,np
-#Set GPIO pins to 18-Bit DPI Mode 6
+#Set up color pins
 gpio=4=a2,np
 gpio=5=a2,np
 gpio=6=a2,np
@@ -55,7 +55,7 @@ gpio=1=a2,np
 #Set GPIO pins 2 and 3 to I2C Mode. These can be used for other things, if needed.
 gpio=2=a0,np
 gpio=3=a0,np
-#Set GPIO pins to 18-Bit DPI Mode 6
+#Set up color pins
 gpio=4=a2,np
 gpio=5=a2,np
 gpio=6=a2,np
